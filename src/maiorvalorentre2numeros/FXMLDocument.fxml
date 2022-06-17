@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="440.0" prefWidth="422.0" style="-fx-background-color: #FDF5E6;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="maiorvalorentre2numeros.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="135.0" layoutY="229.0" onAction="#verif" style="-fx-background-color: #FFB6C1;" text="VERIFICAR">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font></Button>
+        <Label fx:id="label" layoutX="75.0" layoutY="28.0" minHeight="16" minWidth="69" style="-fx-background-color: #FFB6C1;" text="QUAL O MAIOR VALOR?">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font></Label>
+      <Label layoutX="36.0" layoutY="111.0" text="1º NUMERO:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="172.0" text="2º NUMERO:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="cx1" layoutX="155.0" layoutY="99.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="cx2" layoutX="155.0" layoutY="160.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="cx3" layoutX="43.0" layoutY="319.0" prefHeight="39.0" prefWidth="343.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+    </children>
+</AnchorPane>
